@@ -1,0 +1,22 @@
+body {
+  background: #C2D9FF;
+  height: 2000px; 
+}
+.hero {
+  background: #C2D9FF;
+}
+.profile-section {
+  background: #8E8FFA;
+}
+.contact-me {
+  background: #190482;
+}
+.profile {
+  border-radius: 50%;
+  object-fit: cover; 
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
