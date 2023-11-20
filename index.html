@@ -90,7 +90,7 @@
     <h2 class="pb-2 text-center">What have I done/doing?</h2>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
       <div class="col d-flex align-items-start">
-        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3" style="background: white;">
           <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-check2-circle"
           viewBox="0 0 16 16">
             <path
@@ -111,7 +111,7 @@
         </div>
       </div>
       <div class="col d-flex align-items-start">
-        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+        <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3" style="background: white;">
           <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
             <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
             <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
@@ -125,38 +125,24 @@
     </div>
   </div>
   <!--Mini Projects-->
-  <div class="container px-0 py-5 nobubble" id="custom-cards">
-    <h2 class="pb-2 text-center">Projects</h2>
-    <div class="row row-cols-1 row-cols-lg-2 justify-content-center g-5 py-5">
-      <div class="col-10">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark" style="background-image: url('https://pna.shaparak.ir/shp.png');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Shaparak.ir Clone</h3>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="d-flex align-items-center me-3">
-                <em>Unresponsive but detailed copy (without frameworks)</em>
-              </li>
-              <a href="https://jallbreaker.github.io/shaparak-clone/" target="_blank"><button class="btn btn-secondary">Live View</button></a>
-            </ul>
-          </div>
-        </div>
+  <div class="card-group pb-5 px-5">
+    <div class="card mx-2">
+      <div class="card-body">
+        <h5 class="card-title">Shaparak.ir Clone</h5>
+        <p class="card-text">Unresponsive but detailed copy (without frameworks).</p>
+        <a href="https://jallbreaker.github.io/shaparak-clone/" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
       </div>
-
-      <div class="col-10">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark" style="background-image: url('./Files/Screenshot\ 2023-11-17\ 143541.png');">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 tst">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Portfolio v1</h3>
-            <ul class="d-flex list-unstyled mt-auto">
-              <li class="d-flex align-items-center me-3">
-                <em>First Web project - Made by pure HTML</em> 
-              </li>
-                <a href="https://jallbreaker.github.io/portfolio/" target="_blank"><button class="btn btn-secondary">Live View</button></a>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <img src="./Files/Shaparak.jpg" class="card-img-bottom" height="200" style="object-fit: cover;" alt="shaparak logo">
     </div>
-  </div>
+    <div class="card mx-2">
+      <div class="card-body">
+        <h5 class="card-title">Portfolio v1</h5>
+        <p class="card-text">First Web project - Made by pure HTML.</p>
+        <a href="https://jallbreaker.github.io/portfolio/" target="_blank"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+      </div>
+      <img src="./Files/html.png" class="card-img-bottom" height="200" style="object-fit: cover;" alt="html5">
+    </div>
+  </div>  
   <!--Contact me-->
   <footer class="text-center text-light pt-4 pb-1 gradient" id="footer">
     <h3>Contact me</h3>
